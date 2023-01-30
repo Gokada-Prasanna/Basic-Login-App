@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.bgContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.innerContainer {
+  height: 400px;
+  width: 500px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 30px;
+  width: 150px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: #303150;
+}
